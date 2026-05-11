@@ -10,6 +10,8 @@
 
 TradingAgents-CN 是 [TradingAgents](https://github.com/TauricResearch/TradingAgents) 的中文增强版本，专为中国A股、港股市场优化，集成了多个AI大模型，支持多智能体协作进行股票分析与交易决策。
 
+> **个人备注**：我主要用 DeepSeek 模型 + A股数据跑分析，港股部分还没怎么测试过。
+
 ## ✨ 主要特性
 
 - 🤖 **多智能体协作** - 基于LangGraph的多Agent框架，包含分析师、研究员、交易员等角色
@@ -110,5 +112,6 @@ MIT License - 详见 [LICENSE](LICENSE) 文件
 ## 🙏 致谢
 
 - 原项目：[TradingAgents](https://github.com/TauricResearch/TradingAgents)
+- 上游 fork：[hsliuping/TradingAgents-CN](https://github.com/hsliuping/TradingAgents-CN)
 - [LangGraph](https://github.com/langchain-ai/langgraph)
 - [LangChain](https://github.com/langchain-ai/langchain)
