@@ -10,7 +10,7 @@
 
 TradingAgents-CN 是 [TradingAgents](https://github.com/TauricResearch/TradingAgents) 的中文增强版本，专为中国A股、港股市场优化，集成了多个AI大模型，支持多智能体协作进行股票分析与交易决策。
 
-> **个人备注**：我主要用 DeepSeek 模型 + A股数据跑分析，港股部分还没怎么测试过。
+> **个人备注**：我主要用 DeepSeek 模型 + A股数据跑分析，港股部分还没怎么测试过。目前测下来 DeepSeek-V3 性价比最高，推荐优先用这个。
 
 ## ✨ 主要特性
 
@@ -51,8 +51,9 @@ cp .env.example .env
 ```env
 # 选择一个 LLM 提供商
 OPENAI_API_KEY=your_openai_key
-# 或
+# 或（推荐，便宜很多）
 DEEPSEEK_API_KEY=your_deepseek_key
+DEEPSEEK_MODEL=deepseek-chat  # 即 DeepSeek-V3，性价比最高
 
 # 金融数据 API
 FINANCIAL_DATASETS_API_KEY=your_key
